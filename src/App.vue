@@ -1,15 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Titulo texto="Mi Banco Dinamico 2.1"></Titulo>
+  <Cuenta></Cuenta>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Titulo from './components/Titulo.vue'
+import Cuenta from './components/Cuenta'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Titulo,
+    Cuenta
   }
 }
 </script>
@@ -22,5 +26,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 </style>
