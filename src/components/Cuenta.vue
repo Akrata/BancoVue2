@@ -66,7 +66,8 @@ export default {
         border: solid 1px #35495E;
         width: 600px;
         min-height: 500px;
-        border-radius:12px
+        border-radius:12px;
+        position: relative;
     }
     .boton{
         width: 200px;
@@ -86,6 +87,10 @@ export default {
     }
     p{
         color: red;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
     
 </style>
